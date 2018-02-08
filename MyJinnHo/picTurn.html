@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/picTurn.css" rel="stylesheet" type="text/css"/>
+<script language="javascript" src="js/picTurn.js"></script>
+</head>
+
+<body>
+		<div class="content_box">
+			<div class="box">
+				<div class="main">
+					<div class="arrow" style="background:url(img/p.png) no-repeat;" ></div>
+					<div class="arrow" style="background:url(img/n.png) no-repeat; margin-left:235px;"></div>
+					
+					<div class="a_left" name="0" onmousemove="moumove(this)" onmouseout="mouout(this)" onclick="c_pre()"></div>
+					<div class="a_right" name="1" onmousemove="moumove(this)" onmouseout="mouout(this)" onclick="c_next()"></div>
+					
+					<div class="big_pic" style="background:url(img/1.jpg) no-repeat;z-index:1;"></div>	
+					<div class="big_pic" style="background:url(img/2.jpg) no-repeat"></div>
+					<div class="big_pic" style="background:url(img/3.jpg) no-repeat"></div>
+					<div class="big_pic" style="background:url(img/4.jpg) no-repeat"></div>	
+					<div class="big_pic" style="background:url(img/5.jpg) no-repeat"></div>
+				</div>
+				<div class="small_pic">
+					<li><img id="0" src="img/1.jpg" style="opacity:1" name="lipic" onclick="c_liPic(this.id)"></li>
+					<li><img id="1" src="img/2.jpg" name="lipic" onclick="c_liPic(this.id)"></li>
+					<li><img id="2" src="img/3.jpg" name="lipic" onclick="c_liPic(this.id)"></li>
+					<li><img id="3" src="img/4.jpg" name="lipic" onclick="c_liPic(this.id)"></li>
+					<li><img id="4" src="img/5.jpg" name="lipic" onclick="c_liPic(this.id)"></li>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+body{
+		margin:0 auto;
+		width:800px;
+	}
+	.content{
+		width:800px;
+		height:600px;
+		text-align:center;
+		position:relative;
+		background:url("") no-repeat;
+	}
+	.showbox_border{
+		margin:0 auto;
+		width:320px;
+		height:320px;
+		border-top:solid 1px;
+		border-radius:15px;
+		background-color:orange;
+		position:relative;
+	}
+	.showbox{
+		margin:10px auto;
+		width:300px;
+		height:300px;
+		background:white;
+	}
+	.ready{
+			font-size:2.5em;
+			padding-top:50px;
+	}
+	.cover_board{
+		width:300px;
+		height:300px;
+		position:absolute;
+		background:white;
+		left:10px;
+		top:10px;
+	}
+	.score_box{
+		height:100px;
+		width:100px;
+		background:white;
+		top:30px;
+		right:100px;
+		position:absolute;
+		border:5px solid black;
+		border-radius:10px;
+	}
+	.cheat{
+		height:150px;
+		width:150px;
+		background:white;
+		position:absolute;
+		top:160px;
+		right:80px;
+	}
+	.start_time{
+		font-size:3em;
+		color:red;
+	}
+	.input{
+		width:80px;
+		height:30px;
+		line-height:30px;
+		font-size:1.5em;
+		margin-top:10px;
+	}
+	#score1{
+		display:none;
+	}
+	.btn {
+		-webkit-tap-highlight-color:rgba(0,0,0,0);
+		position: relative;
+		color: rgba(255,255,255,1);
+		text-decoration: none;
+		background-color: rgba(219,87,5,1);
+		font-family: 'Yanone Kaffeesatz';
+		font-weight: 700;
+		font-size: 1.2em;
+		display: block;
+		padding: 4px;
+		border-radius: 8px;
+		box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+		margin: 10px auto;
+		width: 120px;
+		text-align: center;
+		transition: all .1s ease;
+	}
+
+	.btn:active {
+		box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+		position: relative;
+		top: 7px;
+		
+	}.btn_active{
+		box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+		position: relative;
+		top: 7px;
+	}
+	
+	@media screen and (min-width: 550px) and (max-width: 800px) {
+		body{
+			margin:0 auto;
+			width:550px;
+		}
+		.content{
+			width:550px;
+			height:600px;
+			background:white;
+		}
+		.score_box{
+			right:1px;
+			float:right;
+		}
+		.cheat{
+			width:110px;
+			right:1px;
+		}
+	}
+	@media screen and (min-width: 100px) and (max-width: 550px) {
+		body{
+			margin:0 auto;
+			width:350px;
+		}
+		.content{
+			width:350px;
+			height:600px;
+			background:white;
+		}
+		.showbox_border{
+			width:270px;
+			height:270px;
+		}
+		.showbox{
+			width:250px;
+			height:250px;
+		}
+		.cover_board{
+			width:250px;
+			height:250px;
+		}
+		.score_box{
+			display:none;
+		}
+		.cheat{
+			width:110px;
+			height:50px;
+			background:none;
+			top:0px;
+			right:60px;
+		}
+		#score1{
+			height:40px;
+			width:100px;
+			display:bLock;
+			text-align:left;
+			margin-left:70px;
+			font-size:20px;
+			background:orange;
+			border:2px solid black;
+			border-radius:10px;
+			margin-top:5px;
+			margin-bottom:5px;
+			padding-left:10px;
+		}
+		#score1 span{
+			color:red;
+			font-size:35px;
+		}
+		.ready{
+			font-size:1em;
+			padding-top:5px;
+		}
+	}	

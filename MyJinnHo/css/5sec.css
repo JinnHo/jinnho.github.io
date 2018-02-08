@@ -1,0 +1,62 @@
+body{
+		text-align:center;
+		margin-right:auto;
+		margin-left:auto;
+		width:800px;
+		height:500px;
+	}
+	.content{
+		margin-top:100px;
+		text-align:center;
+		height:400px;
+		background-image:url(../img/bg.png);
+	}
+	.showarea{
+		text-align:center;
+		margin:0 auto;
+		width:150px;
+		height:150px;
+		background-color:orange;
+		color:white;
+		border-radius:15px;
+	}
+	.score{
+		font-size:1.5em;
+		line-height:140px;
+		margin-top:100px;
+	}
+	
+	.btn {
+		position: relative;
+		color: rgba(255,255,255,1);
+		text-decoration: none;
+		background-color: rgba(219,87,5,1);
+		font-family: 'Yanone Kaffeesatz';
+		font-weight: 700;
+		font-size: 1.2em;
+		display: block;
+		padding: 4px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+		-moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+		box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+		margin: 100px auto;
+		width: 120px;
+		text-align: center;
+		
+		-webkit-transition: all .1s ease;
+		-moz-transition: all .1s ease;
+		-ms-transition: all .1s ease;
+		-o-transition: all .1s ease;
+		transition: all .1s ease;
+	}
+
+	.btn:active {
+		-webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+		-moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+		box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+		position: relative;
+		top: 6px;
+	}

@@ -1,0 +1,36 @@
+﻿<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta name="viewport"content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<script language="javascript" src="js/countMonkey.js"></script>
+<link href="css/countMonkey.css" rel="stylesheet" type="text/css"/>
+
+<body onload="cw()">
+	<div class="content">
+		<div id="score1">Score:<span name="score_box">0</span></div>
+		<div class="showbox_border">
+			<div class="showbox" id="showbox">
+				<div class="ready">你准备好了吗</div>
+				<a class="btn" href="#" onmousedown="start(1)" id="s_start">普通</a>
+				<a class="btn" href="#" onmousedown="start(2)" id="s_start">困难</a>
+				<a class="btn" href="#" onmousedown="start(3)" id="s_start">变态</a>
+				<span class="start_time" id="start_time"></span>
+			</div>
+			<div class="cover_board" id="cover_board" style="z-index:-1;"></div>
+		</div>
+		<div class="score_box">
+			<span class="ss">Score</span><br>
+			<span name="score_box" style="font-size:4em;color:red;">0</span>
+		</div>
+		<div class="cheat">
+			<a class="btn" href="#" style="font-size:0.5em;width:80px;font-weight:500" onmousedown="b_show()">偷瞄一眼(<span id="cc">3</span>)</a>
+		</div>
+		<div>
+			<table align="center" id="tb">	
+			</table>
+		</div>
+	</div>
+	<div style="display:none"><img src="img/wrong.png"/><img src="img/wrong-2.png"/></div>
+</body>
